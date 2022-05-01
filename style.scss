@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 600px;
+    background-image: url(1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+    .header-1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin: 0 auto;
+        height: 50px;
+        border-bottom: 2px solid white;
+
+        i{
+            font-size: 30px;
+        }
+
+        .txt-1{
+            display: flex;
+            align-items: center;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-family: sans-serif;
+            font-size: 15px;
+
+            i{
+                margin-left: 15px;
+                cursor: pointer;
+            }
+        }
+    }
+    .footer-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 550px;
+        h1{
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-size: 50px;
+        }
+        p{
+            margin-top: 15px;
+            margin-bottom: 30px;
+            font-family: 'Brush Script MT, Brush Script Std', cursive ;
+            font-size: 40px;
+        }
+        button{
+            padding: 15px 80px;
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            font-size: 20px;
+            font-family: 'URW Chancery L', cursive;
+            font-size: 22px;
+            cursor: pointer;
+        }
+    }
+}
+.main-2{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #F5F5F5;
+    .txt-2{
+        width: 40%;
+        margin: 0 auto;
+        h1{
+            font-family: sans-serif;
+            font-size: 50px;
+            text-transform: uppercase;
+        }
+        hr{
+            width: 10%;
+            margin: 35px auto;
+            height: 5px;
+            background-color: rgba(0, 128, 0, 0.597);
+        }
+        p{
+            color: grey;
+            font-family: 'Snell Roundhand', cursive;
+        }
+        h2{
+            margin: 20px 0;
+            font-family: 'URW Chancery L', cursive;
+            font-size: 30px;
+        }
+    }
+}
+
+.main-3{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1{
+        text-transform: uppercase;
+        font-family: sans-serif;
+        font-size: 50px;
+    }
+    hr{
+        width: 3%;
+        margin: 20px auto;
+        background-color:rgba(0, 128, 0, 0.597);
+        height: 5px;
+        border: none;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin: 20px auto;
+        .card-1{
+            hr{
+                width: 15%;
+                margin: 15px 0;
+                height: 2px;
+                background-color: rgba(0, 128, 0, 0.597);
+                border: none;
+            }
+            .icons{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #00CED1;
+                .icon{
+                    background-color: #00CED1;
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    font-size: 30px;
+                }
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 31%;
+            h3{
+                margin-top: 30px;
+                text-transform: uppercase;
+                font-family: sans-serif;
+                font-size: 25px;
+            }
+            p{
+                text-align: center;
+                font-family: 'Snell Roundhand', cursive;
+                color: grey;
+            }
+        }
+        .card-2{
+            hr{
+                width: 15%;
+                margin: 15px auto;
+                background-color: rgba(0, 128, 0, 0.597);
+                height: 2px;
+                border: none;
+            }
+            .icons{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #00CED1;
+                .icon{
+                    background-color: #00CED1;
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    font-size: 30px;
+                }
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 31%;
+            h3{
+                margin-top: 30px;
+                text-transform: uppercase;
+                font-family: sans-serif;
+                font-size: 25px;
+            }
+            p{
+                text-align: center;
+                color: grey;
+                font-family: 'Snell Roundhand', cursive;
+            }
+        }
+        .card-3{
+            hr{
+                width: 15%;
+                margin: 15px auto;
+                background-color: rgba(0, 128, 0, 0.597);
+                height: 2px;
+                border: none;
+            }
+            .icons{
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid #00CED1;
+                .icon{
+                    background-color: #00CED1;
+                    height: 80px;
+                    width: 80px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    color: white;
+                    font-size: 30px;
+                }
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 31%;
+            h3{
+                margin-top: 30px;
+                text-transform: uppercase;
+                font-family: sans-serif;
+                font-size: 25px;
+            }
+            p{
+                text-align: center;
+                color: grey;
+                font-family: 'Snell Roundhand', cursive;
+            }
+        }
+    }
+}
+.main-4{
+    height: 600px;
+    display: flex;
+    .image-side{
+        width: 50%;
+        background-image: url(2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .text-side{
+        background-color: #B0C4DE;
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        h1{
+            text-align: center;
+            text-transform: uppercase;
+            font-family: sans-serif;
+            font-size: 50px;
+            width: 70%;
+            margin: 0 auto;
+        }
+        hr{
+            width: 4%;
+            margin: 5px auto;
+            height: 5px;
+            background-color: rgba(0, 128, 0, 0.597);
+            border: none;
+        }
+        p{
+            margin-top: 30px;
+            width: 60%;
+            text-align: center;
+            line-height: 30px;
+            color: grey;
+            font-size: 20px;
+            font-family: 'URW Chancery L', cursive;
+        }
+    }
+}
+.main-5{
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h1{
+        font-size: 70px;
+    }
+    p{
+        font-size: 40px;
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+    h3{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    i{
+        font-size: 30px;
+    }
+}
